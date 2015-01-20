@@ -8,7 +8,7 @@ Photoshop-like "overlay" blend mode for GLSL.
 #pragma glslify: blend = require(../)
 
 void main() {
-  vec4 bgColor = texture2D(background, vUv);
+  vec4 bgColor = texture2D(bg, vUv);
   vec4 fgColor = texture2D(foreground, vUv);
 
   vec3 color = blend(bgColor.rgb, fgColor.rgb);
@@ -25,7 +25,7 @@ void main() {
 Blends background and foreground with an "overlay" blend mode. The algorithm for each channel is as follows:
 
 ```
-background < 0.5 ? (2.0 * background * foreground) : (1.0 - 2.0 * (1.0 - background) * (1.0 - foreground))
+bg < 0.5 ? (2.0 * bg * fg) : (1.0 - 2.0 * (1.0 - bg) * (1.0 - fg))
 ```
 
 ## Contributing
