@@ -7,3 +7,6 @@ test.js
 demo
 example
 .npmignore
+shaders
+gl-blend-example.js
+index.html

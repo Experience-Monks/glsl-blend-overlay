@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "wzrd test.js -- -t glslify"
+    "start": "wzrd test.js -- -t glslify",
+    "bundle": "browserify test.js -t glslify | uglifyjs -cm > bundle.js"
   },
   "author": {
     "name": "Matt DesLauriers",
@@ -23,6 +24,7 @@
     "gl-texture2d": "^2.0.8",
     "glslify": "^1.6.0",
     "lena": "^1.0.0",
+    "uglify-js": "^2.4.16",
     "webgl-context": "^2.1.1",
     "wzrd": "^1.2.1"
   },
