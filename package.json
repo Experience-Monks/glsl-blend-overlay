@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "wzrd test.js -- -t glslify",
+    "start": "wzrd test.js:bundle.js -- -t glslify",
     "bundle": "browserify test.js -t glslify | uglifyjs -cm > bundle.js"
   },
   "author": {
