@@ -6,10 +6,8 @@ var createShader = glslify({
 })
 
 //create our WebGL test example
-var context = require('./gl-blend-example')({
-    shader: createShader,
-    width: 512,
-    height: 512
+var context = require('gl-blend-demo')({
+    shader: createShader
 })
 
 //add to DOM
