@@ -1,6 +1,6 @@
 {
   "name": "glsl-blend-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "blend mode 'overlay' for GLSL",
   "main": "index.js",
   "license": "MIT",
