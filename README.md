@@ -34,4 +34,4 @@ See [stackgl/contributing](https://github.com/stackgl/contributing).
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/stackgl/glsl-blend-overlay/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/Jam3/glsl-blend-overlay/blob/master/LICENSE.md) for details.
