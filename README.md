@@ -2,6 +2,8 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+[(click for demo)](http://jam3.github.io/glsl-blend-overlay/)
+
 Photoshop-like "overlay" blend mode for GLSL.
 
 ```glsl
